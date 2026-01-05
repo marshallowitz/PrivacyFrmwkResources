@@ -1,25 +1,30 @@
 # Profile Contribution Form
+*Remove all italicized text in this form, provided for instructional purposes, before submitting your pull request.*
 
-**Contributor:** Sofia Marshallowitz
+**Contributor:** *Name of contributor. Use organization name if representing an organization.*
 
-**Contributor GitHub Username:** @marshallowitz
+**Contributor GitHub Username:** @[username] *Include the GitHub username for the point of contact(s) responsible for this resource. This user will be responsible for keeping this resource up-to-date and for responding to feedback from the community.*
 
-**Resource:** https://github.com/marshallowitz/PrivacyFrmwkResources
+**Resource:** *If you are hosting your resource, then provide link(s) to your resource. Otherwise, include your resource in your GitHub directory.*
 
-**Related Documentation:** IRRS Whitepaper (Markdown) describing methodology, formulas, limitations, and references: IRRS_readme.md included in this submission.
+**Related Documentation:** *This section is optional. If you are hosting related documentation, then provide link(s). Otherwise, include the related documentation in your GitHub directory.*
 
-**Profile Name:** Synthetic Data Reidentification Risk Profile Using IRRS
+**Profile Name:** *name of the Profile you’re contributing*
 
-**Profile Type:** 
+**Profile Type:** *Provide an industry sector, domain (e.g., IoT), and/or data processing ecosystem role (e.g., data controller) for which this Profile is intended. You may provide any combination of the three. If industry sector, please select from the below list.*
 
-Domain: Artificial Intelligence / Data Analytics
-Data processing ecosystem role: Data Controller and Data Processor
-Industry sectors:
-– Information Technology
-– Healthcare
-– Financial
-– Education
-– Government
-(IRRS is domain-agnostic but particularly relevant in these sectors)
+* *Consumer Technology*
+* *Education*
+* *Energy*
+* *Financial*
+* *Government*
+* *Healthcare*
+* *Identity*
+* *Information Technology*
+* *Manufacturing*
+* *Retail*
+* *Telecommunications*
+* *Transportation*
+* *Other – Please provide your own.*
 
-**Contributor Notes:** This contribution provides a heuristic metric (IRRS – Synthetic Data Reidentification Risk Score) to estimate reidentification risk in AI-generated synthetic datasets without requiring access to the original data. It is aligned conceptually with the NIST Privacy Framework and NIST AI Risk Management Framework, but it is not a normative assessment tool nor a substitute for formal privacy guarantees such as differential privacy. The goal is to support practitioners in privacy engineering, impact assessment, and AI governance by offering an interpretable and transparent risk-estimation framework.
+**Contributor Notes:** *This section is optional. You may use it to share notes for the community to consider while reviewing your resource.*
