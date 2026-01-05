@@ -1,50 +1,29 @@
-Profile Contribution Form
+# Profile Contribution Form
 
-Contributor:
-Sofia Marshallowitz
+**Contributor:** Sofia Marshallowitz
 
-Contributor GitHub Username:
-@sofiatmarshallowitz
+**Contributor GitHub Username:** @marshallowitz
 
-Resource:
-Synthetic Data Reidentification Risk Score (IRRS)
-GitHub repository (tool + documentation in Markdown):
-https://github.com/sofiatmarshallowitz/IRRS-synthetic-data-risk
+**Resource:** (https://github.com/marshallowitz/PrivacyFrmwkResources/blob/999ec6f1ef51bcfd611cfc781b6ae10c9e5d2994/resources/Synthetic%20Data%20Reidentification%20Risk%20Score%20(IRRS)/IRRS_Ready_to_play.ipynb)
 
-Replace with the actual repository link once created.
+**Related Documentation:** IRRS Whitepaper (Markdown) describing methodology, formulas, limitations, and references: IRRS_readme.md included in this submission.
 
-Related Documentation:
-IRRS whitepaper in Markdown (IRRS_readme.md) included in this submission, describing:
+**Profile Name:** Synthetic Data Reidentification Risk Profile Using IRRS
 
-methodology
-
-formulas
-
-assumptions and limitations
-
-references
-
-Profile Name:
-Synthetic Data Reidentification Risk Profile Using IRRS
-
-Profile Type:
+**Profile Type:** 
 
 Domain: Artificial Intelligence / Data Analytics
-
 Data processing ecosystem role: Data Controller and Data Processor
-
 Industry sectors:
+– Information Technology
+– Healthcare
+– Financial
+– Education
+– Government
+(IRRS is domain-agnostic but particularly relevant in these sectors)
 
-Information Technology
+**Contributor Notes:** TThe Synthetic Data Reidentification Risk Score (IRRS) is a heuristic risk estimation framework designed to support organizations in assessing residual reidentification risks in AI-generated synthetic datasets. The IRRS estimates three primary dimensions of risk, membership inference, attribute inference, and singling-out, and provides an aggregated risk score without requiring access to the original dataset.
 
-Healthcare
+The IRRS is conceptually aligned with the NIST Privacy Framework and the NIST AI Risk Management Framework, helping implementers reason about privacy risks in data synthesis, model training, and data release contexts. It is designed to be transparent and interpretable and is intended for practitioners in privacy engineering, AI governance, and impact assessment.
 
-Financial
-
-Education
-
-Government
-
-Contributor Notes:
-This contribution provides a heuristic metric — the IRRS (Synthetic Data Reidentification Risk Score) — to estimate reidentification risk in AI-generated synthetic datasets without requiring access to the original data. It is conceptually aligned with the NIST Privacy Framework and the NIST AI Risk Management Framework, but it is not a normative assessment tool and does not replace formal privacy guarantees such as differential privacy.
-The resource is intended to support practitioners in privacy engineering, impact assessments, and AI governance by offering an interpretable and transparent risk-estimation approach.
+The IRRS is not a normative assessment method and does not replace formal privacy guarantees such as differential privacy or compliance assessments. Instead, it is meant to complement organizational risk management activities by offering a structured, explainable scoring approach for synthetic data scenarios across multiple sectors, including healthcare, finance, government, and education.
